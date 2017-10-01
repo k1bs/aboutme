@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+header {
+  padding: 42px 52px;
+  position: relative;
+  background-color: #61C0AE;
+  color: white;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px 0 0 0;
+  margin: 0 0 60px 0;
+  color: #61C0AE;
+}
+
+p {
+  margin: 0 0 30px 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid lightgrey;
+  margin: 0 0 2em 0;
+  padding: 0;
+}
+
+.container {
+  background-color: white;
+  height: 300px;
+  min-width: 700px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.branding {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  float: left;
+  letter-spacing: -0.05em;
+}
+
+.navigation {
+  float: right;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navigation li {
+  display: inline;
+  margin: 10px 20px;
+}
+
+.clearfix {
+  overflow: auto;
+  clear: both;
+  border-bottom: 1px solid grey;
+}
+
+.hero {
+  float: right;
+  margin: 0 20px 50px 50px;
+}
