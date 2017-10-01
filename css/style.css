@@ -15,13 +15,14 @@ header {
 h3 {
   font-size: 40px;
   font-weight: bold;
-  padding: 30px 0 0 0;
+  padding: 60px 0 0 0;
   margin: 0 0 60px 0;
   color: #61C0AE;
 }
 
 p {
   margin: 0 0 30px 0;
+  line-height: 130%
 }
 
 hr {
@@ -58,7 +59,7 @@ hr {
   font-family: 'Montserrat', sans-serif;
 }
 
-.navigation li {
+li {
   display: inline;
   margin: 10px 20px;
 }
@@ -66,10 +67,9 @@ hr {
 .clearfix {
   overflow: auto;
   clear: both;
-  border-bottom: 1px solid grey;
 }
 
 .hero {
   float: right;
-  margin: 0 20px 50px 50px;
+  margin: 30px 40px 70px 50px;
 }
